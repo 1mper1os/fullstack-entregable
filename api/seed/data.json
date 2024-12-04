@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "firstName": "Joe",
+      "lastName": "Smith",
+      "emailAddress": "joe@smith.com",
+      "password": "joepassword"
+    },
+    {
+      "firstName": "Sally",
+      "lastName": "Jones",
+      "emailAddress": "sally@jones.com",
+      "password": "sallypassword"
+    }
+  ],
+  "courses": [
+    {
+      "userId": 1,
+      "title": "Construir una Estantería Básica",
+      "description": "Los proyectos de muebles de alta gama son geniales para soñar. Pero, a menos que tengas un taller bien equipado y algo de experiencia en carpintería, puede ser difícil convertir el sueño en realidad.\n\nSin embargo, no todas las piezas de mobiliario tienen que ser una obra maestra de museo. A menudo, un diseño simple cumple la misma función, y la experiencia adquirida al completarlo te ayudará a mejorar el siguiente proyecto.\n\nNuestra estantería de pino, por ejemplo, tiene una construcción simple y está diseñada para construirse con herramientas básicas de carpintería. Aun así, el proyecto terminado es una adición valiosa y útil para cualquier habitación de la casa. Aunque está pensada para descansar en el suelo, puedes convertirla en una unidad de almacenamiento montada en la pared dejando de lado la base. Puedes asegurar el gabinete a la pared atornillando las clemas del gabinete a los montantes de la pared.\n\nConstruimos el caso con materiales disponibles en la mayoría de los distribuidores de materiales de construcción y tiendas de madera, incluidos listones de 1/2 x 3/4 pulgadas, 1 x 2, 1 x 4 y 1 x 10 de pino común, y madera contrachapada lauan de 1/4 de pulgada de grosor. El ensamblaje es rápido y fácil con pegamento y clavos, y cuando termines la construcción, tendrás la opción de un acabado pintado o transparente.\n\nEn cuanto a las herramientas básicas, necesitarás una sierra circular portátil, martillo, cepillo de bloque, escuadra combinada, cinta métrica, regla metálica, dos abrazaderas, un punzón para clavos y una espátula. Otros suministros incluyen pegamento, clavos, papel de lija, masilla para madera y barniz o pintura y goma laca.\n\nLas especificaciones que siguen producirán una estantería con dimensiones generales de 10 3/4 pulgadas de profundidad x 34 pulgadas de ancho x 48 pulgadas de altura. Si bien la profundidad del caso está directamente relacionada con la madera de 1 x 10, puedes variar la altura, el ancho y el espacio entre estantes según tus necesidades. Ten en cuenta, sin embargo, que aumentar el ancho del gabinete puede requerir la adición de soportes centrales para los estantes.",
+      "estimatedTime": "12 horas",
+      "materialsNeeded": "* Listón de 1/2 x 3/4 pulgadas\n* Pino común 1 x 2\n* Pino común 1 x 4\n* Pino común 1 x 10\n* Madera contrachapada lauan de 1/4 de pulgada de grosor\n* Clavos para acabado\n* Papel de lija\n* Pegamento para madera\n* Masilla para madera\n* Poluretano a base de aceite Minwax\n"
+    },
+    {
+      "userId": 2,
+      "title": "Aprender a Programar",
+      "description": "En este curso, aprenderás a escribir código como un profesional.",
+      "estimatedTime": "6 horas",
+      "materialsNeeded": "* Computadora portátil con Mac OS X o Windows\n* Editor de texto"
+    },
+    {
+      "userId": 2,
+      "title": "Aprender a Probar Programas",
+      "description": "En este curso, aprenderás cómo probar programas."
+    },
+    {
+      "userId": 1,
+      "title": "Depuración 101",
+      "description": "Una introducción a la prueba y depuración de tu código.",
+      "estimatedTime": "4 horas",
+      "materialsNeeded": "* Computadora portátil con Mac OS X o Windows\n* Editor de texto"
+    }
+  ]
+}

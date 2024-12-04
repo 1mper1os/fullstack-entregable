@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Proyecto 10 de Treehouse Full Stack JavaScript | Aplicación Full Stack con React y una API REST">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Cursos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link href="../styles/reset.css" rel="stylesheet">
+    <link href="../styles/global.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <div class="wrap header--flex">
+                <h1 class="header--logo"><a href="index.html">Cursos</a></h1>
+                <nav>
+                    <ul class="header--signedin">
+                        <li>¡Bienvenido, Joe Smith!</li>
+                        <li><a href="sign-out.html">Cerrar sesión</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="wrap">
+                <h2>Actualizar Curso</h2>
+                <form>
+                    <div class="main--flex">
+                        <div>
+                            <label for="courseTitle">Título del Curso</label>
+                            <input id="courseTitle" name="courseTitle" type="text" value="Construir una estantería básica">
+
+                            <p>Por Joe Smith</p>
+
+                            <label for="courseDescription">Descripción del Curso</label>
+                            <textarea id="courseDescription" name="courseDescription">Los proyectos de muebles de alta gama son geniales para soñar. Pero, a menos que tengas un taller bien equipado y algo de experiencia seria en carpintería, puede ser difícil convertir ese sueño en realidad.&#13;&#13;No todas las piezas de muebles necesitan ser una obra maestra de museo, aunque. A menudo, un diseño sencillo cumple igual su función y la experiencia adquirida al completarlo contribuye a que el siguiente proyecto sea aún mejor.&#13;&#13;Nuestra estantería de pino, por ejemplo, presenta una construcción simple y está diseñada para construirse con herramientas básicas de carpintería. Sin embargo, el proyecto terminado es una adición útil y valiosa para cualquier habitación de la casa. Aunque está pensada para descansar sobre el suelo, puedes convertir la estantería en una unidad de almacenamiento montada en la pared dejando fuera la base. Puedes asegurar el mueble a la pared atornillando a través de las sujeciones del mueble en los montantes de la pared.&#13;&#13;Fabricamos el mueble con materiales disponibles en la mayoría de los proveedores de materiales de construcción y madererías, incluidos listones de 1/2 x 3/4 de pulgada, pino común de 1 x 2, 1 x 4 y 1 x 10 y contrachapado de lauan de 1/4 de pulgada de grosor. El ensamblaje es rápido y fácil con pegamento y clavos, y cuando termines la construcción tendrás la opción de un acabado pintado o transparente.&#13;&#13;En cuanto a herramientas básicas, necesitarás una sierra circular portátil, martillo, plano de bloque, escuadra combinada, cinta métrica, regla metálica, dos abrazaderas, punzón para clavos y espátula. Otros suministros incluyen pegamento, clavos, papel de lija, masilla para madera y barniz o pintura y goma laca.&#13;&#13;Las especificaciones que siguen producirán una estantería con dimensiones generales de 27 cm de profundidad x 86 cm de ancho x 122 cm de alto. Aunque la profundidad de la estantería está directamente relacionada con la madera de 1 x 10, puedes variar la altura, el ancho y el espacio entre estantes según tus necesidades. Ten en cuenta que extender el ancho del mueble puede requerir la adición de soportes centrales para los estantes.</textarea>
+                        </div>
+                        <div>
+                            <label for="estimatedTime">Tiempo Estimado</label>
+                            <input id="estimatedTime" name="estimatedTime" type="text" value="14 horas">
+
+                            <label for="materialsNeeded">Materiales Necesarios</label>
+                            <textarea id="materialsNeeded" name="materialsNeeded">* Listón de 1/2 x 3/4 pulgada&#13;&#13;* Pino común de 1 x 2&#13;&#13;* Pino común de 1 x 4&#13;&#13;* Pino común de 1 x 10&#13;&#13;* Contrachapado de lauan de 1/4 pulgada&#13;&#13;* Clavos para acabado&#13;&#13;* Papel de lija&#13;&#13;* Pegamento para madera&#13;&#13;* Masilla para madera&#13;&#13;* Poliuretano a base de aceite Minwax</textarea>
+                        </div>
+                    </div>
+                    <button class="button" type="submit">Actualizar Curso</button><button class="button button-secondary" onclick="event.preventDefault(); location.href='index.html';">Cancelar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
